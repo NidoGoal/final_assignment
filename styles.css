@@ -1,0 +1,25 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.resume {
+  display: flex;
+  width: 100%;
+  height: 1000px;
+}
+
+.left {
+  width: 20%;
+  height: 100%;
+  padding: 50px;
+  background-color: black;
+  color: white;
+}
+
+.right {
+  width: 80%;
+  height: 100%;
+  padding: 50px;
+  background-color: lightgrey;
+}

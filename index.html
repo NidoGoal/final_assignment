@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+	<title>Resume</title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body onpageshow="myFunction()">
+	<script>
+		function myFunction() {
+			alert("You must be logged into your linkedin account to enable you to use the hyperlink on my name.");
+		}
+
+		function bigImg(x) {
+			x.style.height = "200px";
+			x.style.width = "200px";
+		}
+
+		function normalImg(x) {
+			x.style.height = "100px";
+			x.style.width = "100px";
+		}
+	</script>
+
+	<div class="resume">
+		<div class="left">
+			<h3><a href="https://www.linkedin.com/in/naheed-karim-0081ba111/" style="text-decoration:none">Naheed Karim Merali</a></h3>
+			<img onmouseover="bigImg(this)" onmouseout="normalImg(this)" border="0"
+				src="https://media-exp1.licdn.com/dms/image/C5603AQEDsIGJRK5ymQ/profile-displayphoto-shrink_800_800/0/1601860730682?e=1645056000&v=beta&t=WD78ZI8iZw1YGtL3rcKSjFuvyME-U1giJ2tRhOhR1LU" alt="Image of Naheed" width="100" height="100">
+
+			<br>
+			<div>
+				<h3>Details</h3>
+				<ul>
+					<li>5875727866</li>
+					<li><a href="mailto:naheed.karim27@gmail.com" style="text-decoration:none">naheed.karim27@gmail.com</a>
+				</ul>
+				<br>
+				<h3>Skills</h3>
+				<ul>
+					<li>Accountability</li>
+					<li>Communication</li>
+					<li>Critical Thinking</li>
+					<li>Flexibility</li>
+					<li>Interpersonal Skills</li>
+					<li>Problem-Solving</li>
+					<li>Teamwork</li>
+					<li>Time Management</li>
+				</ul>
+				<br>
+				<h3>Languages</h3>
+				<ul>
+					<li>English</li>
+					<li>Swahili</li>
+					<li>Kutchi</li>
+				</ul>
+				<br>
+				<h3>Hobbies</h3>
+				<ul>
+					<li>Watching Soccer</li>
+					<li>Playing Video Games</li>
+					<li>Listeing to Music</li>
+				</ul>
+			</div>
+		</div>
+		<div class="right">
+			<h3>Profile</h3>
+			<p>I am a responsible young adult that ensures tasks are completed on time and with a high degree of excellence. I like to ensure things are kept neat and in place. I have a joyful character and this helps combat stressful scenarios. I am also
+				highly passionate about sports, with soccer being a particular point of interest. </p>
+			<div>
+				<br>
+				<h3>Employment History</h3>
+				<div>
+					<h3>Night Auditor, Four Points By Sheraton Calgary West</h3>
+					<h3>November 2020 - Present</h3>
+					<ul>
+						<li>Check-in guests, answer calls, and create reservations.</li>
+						<li>Respond to guest complaints and queries.</li>
+						<li>Perform security walks.</li>
+						<li>Investigate and settle accounts that do not balance.</li>
+					</ul>
+				</div>
+				<div>
+					<h3>Salesman, New Jambo Bakery</h3>
+					<h3>January 2019 - December 2019</h3>
+					<ul>
+						<li>Generated sales.</li>
+						<li>Promoted new products.</li>
+						<li>Maintained positive relationships with customers to ensure future sales.</li>
+					</ul>
+				</div>
+				<div>
+					<h3>Supervisor, New Jambo Bakery</h3>
+					<h3>January 2018 - December 2018</h3>
+					<ul>
+						<li>Organized and oversaw daily production.</li>
+						<li>Monitored employee performance.</li>
+						<li>Ensured employees understood their roles.</li>
+					</ul>
+				</div>
+			</div>
+			<br>
+			<div>
+				<h3>Education</h3>
+				<h3>Diploma in Business Administration - Digital Marketing, Bow Valley College</h3>
+				<h3>January 2020 - Present</h3>
+				<h3>Diploma in Accounting and Business, Jaffery Institute of Professional Studies</h3>
+				<h3>July 2014 - June 2016</h3>
+			</div>
+			<br>
+			<div>
+				<h3>Have a look at my <a href="html_cheat_sheet.html" style="text-decoration:none">HTML</a> and <a href="css_cheat_sheet.html" style="text-decoration:none">CSS</a> Cheat Sheets</h3>
+			</div>
+		</div>
+	</div>
+</body>
+
+</html>
+
+<!--Reference-->
+<!--https://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_onmouseover-->
